@@ -1,1 +1,1 @@
-my first shell basic
+current working directory
