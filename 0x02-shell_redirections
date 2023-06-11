@@ -1,1 +1,2 @@
-my shell redirectory
+#!/bin/bash
+echo '"(Ôo)'\'
