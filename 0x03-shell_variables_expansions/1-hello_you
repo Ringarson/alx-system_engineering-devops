@@ -1,2 +1,4 @@
 #!/bin/bash
-whoami : echo "hello, MyUser"
+echo "hello $User"
+
+
