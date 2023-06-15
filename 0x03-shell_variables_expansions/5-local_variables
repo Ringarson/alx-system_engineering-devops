@@ -1,10 +1,2 @@
 #!/bin/bash
-echo "Local Variables:"
-local_vars=$(set -o posix ; set)
-while IFS='=' read -r varname _; do
-  echo "$varname"
-done <<< "$local_vars"
-echo "Environment Variables:"
-printenv
-echo "Functions:"
-declare -F -p | awk '{print $3}'
+set # check "declare" if set didn't work
